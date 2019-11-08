@@ -1,0 +1,152 @@
+body {
+	width: 100%;
+	height: 100%;
+	display: block;
+	/* remember that we need to use flex-wrap: wrap for any of this to work! */
+	margin: 0;
+
+}
+
+
+.top { 
+	height:20%;
+	width:100%;
+	display:flex;
+} 
+
+.bottom { 
+	height:80%;
+	width: 100%;
+	display:block;
+} 
+
+.top-inside{ 
+	height: 100%;
+	width:70%;
+	display:flex;
+} 
+
+.second-top{ 
+	height:100%;
+	width:30%;
+	display:flex;
+} 
+
+.double{ 
+	height:50%;
+	width:100%;
+	display: block;
+} 
+
+.single{ 
+	height:50%;
+	width: 100%;
+	display:flex;
+} 
+
+.small { 
+	height:100%;
+	width:35%;
+	display:flex;
+} 
+
+.big {
+	height:100%;
+	width:65%;
+	display:flex;
+} 
+
+
+
+
+
+
+
+.pink { background-color: #f288c6; }
+.blue{background-color: #146eff;}
+.yellow { background-color: #f6ff4d; }
+.orange { background-color: #fc7e17; }
+.green{background-color:#16fa2d;}
+.purple {background-color:#54077d;}
+.light_pink { background-color: #f7c8e8;} 
+.grey {background-color:#878386;}
+.black{ background-color: #000000; }
+
+
+
+	
+/* the media query is when I want to add breakpoints within the webpage. it makes changes to the diplay of the content */
+@media only screen and (max-width: 1100px) {
+	
+	.double {
+		height:50%;
+		width:100%;
+		display:flex;
+
+	} 
+	
+	.single{
+		height:100%;
+		width:50%;
+		display:block;
+
+	} 
+
+	.small { 
+		height:20%;
+		width:100%;
+		display:flex;
+	} 
+	
+	.big { 
+		height:80%;
+		width:100%;
+		display:flex;
+	} 
+
+
+} 
+
+
+@media only screen and (max-width: 800px) {
+	
+	.double {
+		height:50%;
+		width:100%;
+		display:block;
+
+	} 
+	
+	.single{
+		height:50%;
+		width:100%;
+		display:block;
+
+	} 
+
+	.small { 
+		height:40%;
+		width:100%;
+		display:flex;
+	} 
+	
+	.big { 
+		height:60%;
+		width:100%;
+		display:flex;
+	} 
+
+
+} 
+.center-img {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.flex-container {
+	display: flex;
+	flex-wrap: wrap; 
+	height: 50%;
+	width: 100%;
+}
